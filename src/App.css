@@ -1,0 +1,20 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.App-header img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Сдвиг изображения вверх для мобильных устройств */
+@media (max-width: 768px) {
+  .App {
+    align-items: flex-start;
+    padding-top: 32vh; /* Уменьшили значение для более точного позиционирования */
+  }
+}
