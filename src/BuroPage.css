@@ -1,0 +1,41 @@
+/* BuroPage.css */
+
+.buro-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.buro-logo {
+  position: absolute;
+  width: 21.5vw;
+  height: auto;
+  top: 34.19vh;
+  left: 35vw;
+  transform: translate(-50%, -50%);
+}
+
+.buro-description {
+  position: absolute;
+  top: 37vh;
+  left: calc(35vw - 10.75vw);
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  font-size: 3.7vh;
+  line-height: 1.06;
+  letter-spacing: -0.04em;
+  color: #000;
+  text-align: left;
+  max-width: 600px;
+  width: 70vw;
+}
+
+.buro-wip {
+  position: absolute;
+  width: 15vw;
+  height: auto;
+  top: 80vh;
+  left: 77vw;
+  transform: translate(-50%, -50%);
+}
