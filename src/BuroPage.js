@@ -5,10 +5,10 @@ function BuroPage() {
   useEffect(() => {
     const faviconLink = document.createElement('link');
     faviconLink.rel = 'icon';
-    faviconLink.href = '/favicon-buro.ico'; // Путь к вашей favicon для поддомена buro
+    faviconLink.href = '/favicon-buro.ico'; 
     document.head.appendChild(faviconLink);
 
-    // Удаляем favicon, когда компонент размонтируется
+    
     return () => {
       document.head.removeChild(faviconLink);
     };
@@ -21,7 +21,7 @@ function BuroPage() {
         <p className="buro-description">
           a Ukrainian non-profit creative büro created to make the environment better
         </p>
-        <img src="/WIP.gif" alt="Work in Progress" className="buro-wip" />
+        <img src="/wip.gif" alt="Work in Progress" className="buro-wip" />
       </header>
     </div>
   );
