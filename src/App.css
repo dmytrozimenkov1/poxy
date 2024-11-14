@@ -11,10 +11,10 @@
   height: auto;
 }
 
-/* Сдвиг изображения вверх для мобильных устройств */
+
 @media (max-width: 768px) {
   .App {
     align-items: flex-start;
-    padding-top: 32vh; /* Уменьшили значение для более точного позиционирования */
+    padding-top: 32vh;
   }
 }
